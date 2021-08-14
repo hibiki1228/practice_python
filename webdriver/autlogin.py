@@ -2,12 +2,12 @@ import time, os
 from selenium import webdriver
 import chromedriver_binary
 
-user_id = "aubn8560"
-password = "Hibiki1228"
+user_id = ""
+password = ""
 
 driver = webdriver.Chrome()
 
-driver.get('https://ict-t.el.kyutech.ac.jp/')
+driver.get('')
 time.sleep(3)
 
 tag = driver.find_element_by_link_text('ログイン')
