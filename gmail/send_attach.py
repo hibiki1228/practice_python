@@ -7,7 +7,7 @@ from email import encoders
 
 # 以下にGmailの設定を書き込む★ --- (*1)
 gmail_account = "devkimadore1228@gmail.com"
-gmail_password = "hibiki2029"
+gmail_password = ""
 # メールの送信先 --- (*2)
 mail_to = "devkimadore1228@gmail.com"
 # 添付ファイルのパス(ZIPファイルで指定) --- (*3)
